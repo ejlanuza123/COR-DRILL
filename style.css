@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificate-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.student-info, .fees, .footer {
+    margin-bottom: 20px;
+}
+
+.student-info p, .fees p, .footer p {
+    line-height: 1.5;
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.schedule th {
+    background-color: #f2f2f2;
+}
+
+.fees ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.fees ul li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+}
+.logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
